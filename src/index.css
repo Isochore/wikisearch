@@ -1,0 +1,104 @@
+html
+{
+  	background-image: url(https://i.imgur.com/Wv9Lve1.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+    color: white;
+}
+
+#app
+{
+  position: relative;
+  top: 50px;
+}
+
+.random-article
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box
+{
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  border-style: dotte
+}
+
+a
+{
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+input
+{
+  width: 250px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+input:focus
+{
+  border-color: purple;
+  outline: none;
+}
+
+.result {
+  overflow: hidden;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.result a{
+  overflow: hidden;
+  margin-top: 5px;
+  background-color: rgba(102, 102, 102, 0.4);
+  height: 45px;
+  width : 80%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+  border-style : solid;
+  border-color: grey;
+  display: block;
+  font-size: large;
+}
+
+.resultsArea {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 575) { 
+  .result{
+    width: 100%;
+  }
+  .result a{
+    width: 100%;
+  }
+ }
+
+@media (min-width: 576px) and (max-width: 767) { 
+
+ }
+
+@media (min-width: 768px) and (max-width: 991) { 
+  
+ }
+
+@media (min-width: 992px) and (max-width: 1199) { 
+
+ }
+
+@media (min-width: 1200px) { 
+
+ }
